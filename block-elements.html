@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ejemplos de elementos de bloque</title>
+</head>
+<body>
+  <header>
+    <h1>Elementos de bloque (block-level)</h1>
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="inline-elements.html">En línea</a> |
+      <a href="form-elements.html">Formularios</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section>
+      <h2>Encabezados y párrafos</h2>
+      <p>Este es un párrafo de ejemplo. Los elementos de bloque ocupan todo el ancho disponible y empiezan en una nueva línea.</p>
+      <p>Otro párrafo con <strong>énfasis</strong> y <em>cursiva</em>.</p>
+    </section>
+
+    <section>
+      <h2>Listas</h2>
+      <h3>Lista desordenada</h3>
+      <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+      </ul>
+      <h3>Lista ordenada</h3>
+      <ol>
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+      </ol>
+      <h3>Lista de definiciones</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de marcado para la web.</dd>
+        <dt>CSS</dt>
+        <dd>Estilos para presentar documentos HTML.</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Tablas</h2>
+      <table border="1">
+        <caption>Tabla de ejemplo</caption>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ana</td>
+            <td>28</td>
+            <td>Rosario</td>
+          </tr>
+          <tr>
+            <td>Bruno</td>
+            <td>34</td>
+            <td>Santa Fe</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Pie de tabla</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section>
+      <h2>Bloques semánticos</h2>
+      <article>
+        <h3>Artículo de ejemplo</h3>
+        <p>Contenido dentro de un <code>&lt;article&gt;</code>. Ideal para entradas o noticias.</p>
+      </article>
+
+      <aside>
+        <h4>Barra lateral (aside)</h4>
+        <p>Notas relacionadas o complementarias.</p>
+      </aside>
+
+      <figure>
+        <img src="img/ELMEJOREQUIPODESANTAFE.png" alt="imagen equipo" width="120">
+        <figcaption>Figura con pie de foto</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Bloques de texto preformateado y citas</h2>
+      <pre>
+function saludo() {
+  console.log('Hola mundo');
+}
+      </pre>
+      <blockquote>
+        <p>"La ingeniería es la profesión que resuelve problemas" — Autor anónimo</p>
+      </blockquote>
+    </section>
+
+    <section>
+      <h2>Contenedores genéricos</h2>
+      <div>
+        <p>Un <code>&lt;div&gt;</code> como contenedor genérico para agrupar elementos de bloque.</p>
+      </div>
+      <hr>
+    </section>
+  </main>
+
+  <footer>
+    <p>Volver a <a href="index.html">Inicio</a></p>
+    <p>Archivo de ejemplo: elementos de bloque</p>
+  </footer>
+</body>
+</html>

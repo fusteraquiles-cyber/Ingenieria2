@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ejemplos de formularios</title>
+</head>
+<body>
+  <header>
+    <h1>Elementos de formulario</h1>
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="inline-elements.html">En línea</a> |
+      <a href="block-elements.html">Bloques</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="tu@ejemplo.com">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="0" max="120">
+        <br>
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento">
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferencias</legend>
+        <label>Género:</label>
+        <input type="radio" id="g_m" name="genero" value="m"><label for="g_m">Masculino</label>
+        <input type="radio" id="g_f" name="genero" value="f"><label for="g_f">Femenino</label>
+        <br>
+        <label for="intereses">Intereses:</label>
+        <input type="checkbox" id="i1" name="interes" value="musica"><label for="i1">Música</label>
+        <input type="checkbox" id="i2" name="interes" value="deporte"><label for="i2">Deporte</label>
+        <input type="checkbox" id="i3" name="interes" value="cine"><label for="i3">Cine</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Contacto y mensaje</legend>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="Escribe aquí..."></textarea>
+        <br>
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+          <optgroup label="América">
+            <option value="ar">Argentina</option>
+            <option value="uy">Uruguay</option>
+          </optgroup>
+          <optgroup label="Europa">
+            <option value="es">España</option>
+            <option value="pt">Portugal</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Controles complementarios</legend>
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+        <br>
+        <label for="archivo">Subir archivo:</label>
+        <input type="file" id="archivo" name="archivo">
+        <br>
+        <label for="rango">Rango (0-100):</label>
+        <input type="range" id="rango" name="rango" min="0" max="100" value="50">
+        <br>
+        <label for="busqueda">Buscar:</label>
+        <input type="search" id="busqueda" name="busqueda">
+        <br>
+        <label for="url">Sitio web:</label>
+        <input type="url" id="url" name="url" placeholder="https://">
+        <br>
+        <label for="numero">Número (con paso):</label>
+        <input type="number" id="numero" name="numero" step="0.5">
+      </fieldset>
+
+      <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </p>
+
+      <p>Elementos HTML5 útiles: <progress value="32" max="100"></progress> <meter value="0.6" min="0" max="1"></meter></p>
+
+      <p>Entrada con sugerencias (datalist):
+        <input list="ciudades" name="ciudad">
+        <datalist id="ciudades">
+          <option value="Rosario">
+          <option value="Santa Fe">
+          <option value="Buenos Aires">
+        </datalist>
+      </p>
+
+      <p>Salida calculada (ejemplo): <output name="resultado" for="numero rango">0</output></p>
+    </form>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Volver al inicio</a></p>
+  </footer>
+</body>
+</html>
