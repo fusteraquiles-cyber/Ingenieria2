@@ -83,6 +83,12 @@
         <label for="numero">Número (con paso):</label>
         <input type="number" id="numero" name="numero" step="0.5">
       </fieldset>
+      <style>
+        * {
+            color:brown;
+        }
+
+      </style>
 
       <p>
         <button type="submit">Enviar</button>
@@ -107,5 +113,69 @@
   <footer>
     <p><a href="index.html">Volver al inicio</a></p>
   </footer>
+  <h2>Horario Instituto 2do TSDS</h2>
+
+<table border="1">
+	<tr>
+    	<th colspan="6"> Horario 2do </th>
+    </tr>
+	<tr>
+    	<th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Mi&eacute;rcoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+    </tr>
+    <tr>
+    	<td>13:10hs</td>
+        <td rowspan="2">Innovaci&oacute;n y Desarrollo</td>
+        <td rowspan="2">Inglés</td>
+        <td rowspan="2">Problem&aacute;tica Socio Contemporanea</td>
+        <td rowspan="3">Ingenieria del Software II</td>
+        <td rowspan="9">&nbsp;</td>
+    </tr>
+    <tr>
+    	<td>15:10</td>
+    </tr>
+    <tr>
+    	<td>15:10-15:50</td>
+        <td>Estadistica</td>
+        <td>Programación I</td>
+        <td>Base de Datos</td>
+    </tr>
+    <tr><td colspan="5"></td></tr>
+    <tr>
+    	<td>16:00</td>
+        <td rowspan="2">Estadistica</td>
+        <td rowspan="5">Programación I</td>
+        <td rowspan="3">Base de Datos</td>
+        <td rowspan="4">Practicas Profesionalizantes</td>
+    </tr>
+    <tr><td>17:20</td></tr>
+    <tr><td>18:00</td></tr>
+    <tr><td>18:40</td></tr>
+    <tr><td>19:20</td></tr>
+</table>
+
+<form method="get" action="https://www.algo.com">
+	<label for="domicilio">Ingrese su dirección:</label>
+	<input name="domicilio" id="domicilio" type="text" placeholder="San Justo, Santa Fe"/>
+	<br/>
+		<label for="fechanac">Ingrese su fecha de nacimiento:</label>
+		<input name="fechanac" id="fechanac" type="date"/>
+	<br/>
+		<label for="email">Ingrese su dirección de email:</label>
+		<input name="email" id="email" type="email"/>
+	<br/>
+		<label for="mes">Ingrese su mes favorito del verano:</label>
+		<select name="mes" id="mes">
+			<option value="12">Diciembre</option>
+    		<option value="1">Enero</option>
+    		<option value="2">Febrero</option>
+		</select>
+	<br/>
+		<input type="submit">
+		<input type="reset">
 </body>
 </html>
