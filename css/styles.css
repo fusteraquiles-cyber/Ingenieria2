@@ -1,0 +1,88 @@
+label {
+        font-style: italic;
+        color:blueviolet;
+        background-color: salmon;
+    }
+    fieldset {
+        background-color: rgb(100, 100, 255);
+    }
+    
+    input {
+        background-color: rgb(220, 255, 66);
+    }
+    textarea {
+        background-color: rgb(255, 255, 0);
+    }
+    select {
+        background-color: rgb(255, 0, 0);
+    }
+    button {
+        background-color: rgb(255, 0, 255);
+    }
+    progress {
+        background-color: rgb(0, 255, 255);
+    }
+    meter {
+        background-color: rgb(0, 255, 0);
+    }
+    table {
+        font-size: 30px;
+    }
+    .titulo {
+        font-size: 50px;
+        color: rgb(255, 0, 0);
+        background-color: rgb(255, 255, 0);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center; 
+    }
+    .body {
+        background-color: rgb(255, 0, 255);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+}
+#email {
+    background-color: rgb(0, 255, 255);
+    border: 20px double rgb(19, 147, 140);
+    padding: 10px;
+    text-align: center;
+}
+td[rowspan], th[rowspan] {
+    background-color: rgb(255, 255, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}  
+input[type="submit"], input[type="reset"] {
+    background-color: rgb(255, 0, 255);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+input:focus {
+    background-color: rgb(232, 232, 232);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+::first-letter {
+    font-size: 200%;
+    color: rgb(255, 0, 0);
+}
+::first-line {
+    font-style: unset;
+    background-color: yellowgreen;
+}
+button:hover {
+background-color:rgb(0, 27, 100);
+color:rgb(253, 32, 32);
+}
+.importante::before{
+    content:"jaja💋💋💋"
+}
